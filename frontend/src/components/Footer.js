@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <Container>
         <Row>
-          <Col className='text-center py-3'>Copyright &copy; ProShop</Col>
+         <Col className='text-center py-3'><a href='https://github.com/FoadAlhsnat/EcommerceWebsite'>made by foad github</a></Col>
         </Row>
       </Container>
     </footer>
