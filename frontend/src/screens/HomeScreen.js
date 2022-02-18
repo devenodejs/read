@@ -27,13 +27,11 @@ const HomeScreen = ({ match }) => {
   return (
     <>
       <Meta />
-      {!keyword ? (
-        
-      ) : (
+     
         <Link to='/' className='btn btn-light'>
           Go Back
         </Link>
-      )}
+ 
       <h1>Latest Products</h1>
       {loading ? (
         <Loader />
